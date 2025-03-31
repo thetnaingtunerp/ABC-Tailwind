@@ -46,4 +46,4 @@ class UserLogoutView(View):
 
 class DashboardView(View):
     def get(self, request):
-        return render(request, 'dashboard.html')
+        return render(request, 'base.html')
